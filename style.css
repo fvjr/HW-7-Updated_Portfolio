@@ -14,16 +14,21 @@ body {
 
 .nav-container-main {
   background-color: var(--dark);
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
   color: white;
-  text-shadow: 4px 4px 4px black;
+  background-color: #b23a48;
+  box-shadow: 15px 15px 15px 15px black;
+  border-radius: 2%;
 }
 
 .about-me-container {
-  margin-top: 10%;
-  background-color: var(--dark);
+  margin-top: 3%;
+  /* background-color: var(--dark); */
   color: white;
   font-size: 24px;
+  background-color: #b23a48;
+  box-shadow: 15px 15px 15px 15px black;
+  border-radius: 2%;
 }
 
 #my-picture {
@@ -63,8 +68,9 @@ body {
 }
 
 #work-container-whole {
-  background-color: #339989;
+  background-color: #b23a48;
   box-shadow: 15px 15px 15px 15px black;
+  border-radius: 2%;
 }
 
 .work-container {
@@ -97,4 +103,13 @@ body {
   font-size: 20px;
   color: white;
   text-shadow: 4px 4px 4px black;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none;
 }
